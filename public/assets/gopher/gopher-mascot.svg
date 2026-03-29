@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Golang gopher mascot</title>
+  <desc id="desc">A stylized blue gopher mascot inspired by a 3D character render.</desc>
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#88dbff" />
+      <stop offset="58%" stop-color="#69c7f2" />
+      <stop offset="100%" stop-color="#58abd2" />
+    </linearGradient>
+    <linearGradient id="bellyGradient" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#93e2ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6dc8ef" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="skinGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe5c0" />
+      <stop offset="100%" stop-color="#f1bf8d" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+    <filter id="eyeShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <ellipse cx="320" cy="582" rx="156" ry="26" fill="#0b1017" opacity="0.25" />
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="255" cy="113" rx="34" ry="52" fill="url(#bodyGradient)" transform="rotate(-8 255 113)" />
+    <ellipse cx="424" cy="149" rx="30" ry="44" fill="url(#bodyGradient)" transform="rotate(22 424 149)" />
+
+    <path
+      fill="url(#bodyGradient)"
+      d="M214 103c31-39 78-61 142-61 63 0 113 14 151 44 55 43 77 115 77 212 0 69-12 134-34 196-24 64-76 101-153 109-80 9-149-16-195-70-48-57-76-137-76-247 0-85 29-144 88-183Z"
+    />
+    <path
+      fill="url(#bellyGradient)"
+      d="M225 179c18-20 53-33 102-33 47 0 90 11 120 34 44 33 68 86 68 158 0 106-53 190-181 190-119 0-183-88-183-198 0-67 26-119 74-151Z"
+      opacity="0.8"
+    />
+
+    <ellipse cx="140" cy="341" rx="44" ry="31" fill="url(#skinGradient)" transform="rotate(-24 140 341)" />
+    <ellipse cx="504" cy="400" rx="38" ry="72" fill="url(#skinGradient)" transform="rotate(-18 504 400)" />
+
+    <ellipse cx="267" cy="537" rx="26" ry="42" fill="url(#skinGradient)" transform="rotate(8 267 537)" />
+    <ellipse cx="368" cy="543" rx="26" ry="42" fill="url(#skinGradient)" transform="rotate(-12 368 543)" />
+
+    <ellipse cx="275" cy="183" rx="85" ry="92" fill="#fffdf9" filter="url(#eyeShadow)" />
+    <ellipse cx="415" cy="205" rx="83" ry="90" fill="#fffdf9" filter="url(#eyeShadow)" />
+    <ellipse cx="264" cy="168" rx="30" ry="31" fill="#1f1f1f" />
+    <ellipse cx="404" cy="192" rx="27" ry="28" fill="#1f1f1f" />
+
+    <path
+      fill="url(#skinGradient)"
+      d="M316 244c20-20 42-31 71-31 23 0 46 8 56 28 11 22 2 46-15 59-12 10-33 8-45 17-15 10-26 39-48 39-24 0-37-28-46-52-8-24 0-42 27-60Z"
+    />
+    <ellipse cx="383" cy="231" rx="24" ry="20" fill="#1f1f1f" transform="rotate(-12 383 231)" />
+    <rect x="333" y="289" width="28" height="57" rx="13" fill="#fff" />
+    <rect x="362" y="289" width="28" height="57" rx="13" fill="#fff" />
+
+    <path
+      d="M219 88c18-20 43-37 74-49"
+      fill="none"
+      stroke="#c2ecff"
+      stroke-linecap="round"
+      stroke-width="16"
+      opacity="0.5"
+    />
+    <path
+      d="M147 328c13 74 47 129 99 169"
+      fill="none"
+      stroke="#d7f3ff"
+      stroke-linecap="round"
+      stroke-width="16"
+      opacity="0.16"
+    />
+  </g>
+</svg>

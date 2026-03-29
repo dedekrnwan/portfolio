@@ -1,0 +1,1244 @@
+{
+  "site": {
+    "title": "Dede Kurniawan | Senior Backend Engineer",
+    "description": "Backend portfolio of Dede Kurniawan, showcasing project evidence, architecture decisions, security awareness, APIs, and system design experience across fintech, HR SaaS, and geo platforms."
+  },
+  "person": {
+    "name": "Dede Kurniawan",
+    "shortName": "DK",
+    "role": "Senior Backend Engineer",
+    "location": "Depok City, Indonesia",
+    "availability": "Open to senior backend engineering, platform engineering, and system architecture roles.",
+    "email": "dedekrnwan.official@gmail.com",
+    "headline": "Experienced software engineer with 8+ years of experience, specializing in backend development with Golang as my primary programming language.",
+    "summary": "I am a senior software engineer specializing in backend development, distributed systems, and scalable product delivery. My strongest experience sits around Golang-based backend services, infrastructure planning, clean architecture, and backend-heavy product execution across fintech, HR, transportation, and internal operations platforms.",
+    "mission": "I am deeply curious about technical implementation and consistently seek to expand my knowledge beyond immediate responsibilities so I can solve complex backend problems, improve delivery quality, and help teams move with confidence.",
+    "heroImage": "/assets/me.png"
+  },
+  "navigation": {
+    "primary": [
+      { "label": "Home", "href": "/" },
+      { "label": "My work", "href": "/work" },
+      { "label": "Blog", "href": "/blog" }
+    ],
+    "secondary": [
+      { "label": "Portfolio report", "href": "/report" },
+      { "label": "Resume", "href": "/resume" },
+      { "label": "Contact", "href": "/contact" },
+      { "label": "What I use", "href": "/uses" }
+    ]
+  },
+  "heroHighlights": [
+    {
+      "label": "Years of experience",
+      "value": "8+",
+      "supportingText": "Designing, prototyping, and delivering scalable backend systems."
+    },
+    {
+      "label": "Primary backend language",
+      "value": "Golang",
+      "supportingText": "My strongest production experience is in Go-based backend systems."
+    },
+    {
+      "label": "Team leadership",
+      "value": "5 engineers",
+      "supportingText": "Led backend teams and coordinated critical delivery work."
+    },
+    {
+      "label": "Domains",
+      "value": "Fintech / HR / Transport",
+      "supportingText": "Hands-on experience in several business-critical sectors."
+    }
+  ],
+  "about": {
+    "title": "About me",
+    "description": [
+      "Formally, I have 8+ years of experience designing, prototyping, and developing scalable backend solutions across fintech, HR, and transportation domains. I am a strong advocate for clean architecture and SOLID principles, with a proven track record of leading critical projects and resolving complex technical challenges.",
+      "I am also familiar with JavaScript, TypeScript, C#, PHP, and Dart, and I can quickly adapt to these languages when needed to deliver practical and maintainable solutions."
+    ],
+    "cta": {
+      "label": "View portfolio report",
+      "href": "/report",
+      "external": false
+    },
+    "stats": [
+      {
+        "label": "Architecture style",
+        "value": "Clean Architecture",
+        "description": "I use explicit boundaries to keep services easier to scale and maintain."
+      },
+      {
+        "label": "Primary stack",
+        "value": "Go + PostgreSQL",
+        "description": "Production backend services, APIs, integrations, and transaction-heavy systems."
+      },
+      {
+        "label": "Platform ownership",
+        "value": "CI/CD + Infra",
+        "description": "Pipelines, orchestration, proxies, secret management, and environment reliability."
+      },
+      {
+        "label": "Working style",
+        "value": "Lead and execute",
+        "description": "I like owning critical backend work while staying close to business needs and delivery."
+      }
+    ]
+  },
+  "technicalSkillsMatrix": [
+    {
+      "category": "Languages",
+      "skills": ["Golang", "JavaScript", "TypeScript", "PHP", "C#", "Dart"],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Databases",
+      "skills": ["PostgreSQL", "MySQL", "MariaDB", "MongoDB", "Redis", "SQL Server"],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Backend & Architecture",
+      "skills": ["REST API", "Microservices", "Multi-tenant Design", "Clean Architecture", "SOLID", "System Integration"],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "DevOps & Platform",
+      "skills": ["Docker", "Docker Swarm", "Jenkins", "GitLab CI", "GitHub Actions", "Traefik", "Kong"],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Observability & Security",
+      "skills": ["ELK Stack", "Prometheus", "Grafana", "New Relic", "APM", "RBAC", "Rate Limiting"],
+      "proficiency": "Intermediate to Advanced"
+    }
+  ],
+  "featuredProjectSlugs": [
+    "stealth-startup-digital-finance",
+    "amartha-ewallet",
+    "smart-geo-trace"
+  ],
+  "work": {
+    "title": "My Work",
+    "intro": "This portfolio is structured as backend evidence rather than a simple gallery. The featured case studies below follow a STAR-style narrative and include architecture, API, security, deployment, and operational thinking."
+  },
+  "workProjects": [
+    {
+      "slug": "amartha-ewallet",
+      "name": "AmarthaFin E-Wallet",
+      "tagline": "Digital finance platform work inside Amartha's inclusive financial ecosystem.",
+      "description": "Architected and delivered a full e-wallet platform from scratch inside Amartha's broader digital finance ecosystem, with a strong focus on clean architecture, observability, migration safety, and reusable backend modules.",
+      "image": "/assets/amartha/hero.jpg",
+      "gallery": ["/assets/amartha/hero.jpg"],
+      "stack": ["Golang", "PostgreSQL", "Redis", "Prometheus", "Grafana", "New Relic", "Redash", "Microservices"],
+      "links": [
+        { "label": "Company site", "href": "https://amartha.com", "external": true, "variant": "primary" }
+      ],
+      "detailReady": true,
+      "situation": "Amartha publicly positions itself as a technology company building an inclusive digital finance ecosystem. Within that context, the wallet work needed to replace and extend existing financial flows while supporting growth, operational visibility, and safe migration from legacy systems.",
+      "task": [
+        "Architect and deliver the backend foundation for the e-wallet platform.",
+        "Improve observability and issue tracing across distributed services.",
+        "Support the migration of users and transactions from the legacy savings platform."
+      ],
+      "actions": [
+        "Designed the service using clean architecture and modular backend components.",
+        "Built reusable logging and monitoring modules to improve issue tracing and team productivity.",
+        "Implemented real-time observability with Prometheus, Grafana, and New Relic APM.",
+        "Optimized API endpoints and workflows to improve backend efficiency.",
+        "Created Redash dashboards so operational teams could inspect transaction and user behavior more effectively."
+      ],
+      "technicalDecisions": [
+        {
+          "title": "Use clean architecture for the wallet core",
+          "rationale": "The platform needed to evolve safely over time, so separating delivery, use case, and data layers reduced future rework and kept business logic easier to test."
+        },
+        {
+          "title": "Treat observability as a product requirement",
+          "rationale": "Financial systems are operationally sensitive, so proactive monitoring and reusable tracing modules reduced the cost of diagnosing incidents."
+        },
+        {
+          "title": "Design migration work alongside feature delivery",
+          "rationale": "The wallet had to coexist with legacy flows, which made migration reliability just as important as net-new feature delivery."
+        }
+      ],
+      "results": [
+        "Reduced future development overhead by 50% through cleaner architecture and modular delivery.",
+        "Cut issue tracing time by roughly 75% by standardizing logging and monitoring modules.",
+        "Migrated users and transactions from the legacy savings platform to the e-wallet system without major service disruption.",
+        "Improved backend response efficiency through API and workflow optimization."
+      ],
+      "metrics": [
+        { "label": "Development overhead reduction", "value": "50%" },
+        { "label": "Issue tracing improvement", "value": "~75%" },
+        { "label": "Migration stability", "value": "No major disruption" }
+      ],
+      "architectureDiagram": {
+        "title": "Architecture Diagram",
+        "lines": [
+          "flowchart TD",
+          "    Client[Mobile App / Internal Ops] --> Gateway[API Gateway]",
+          "    Gateway --> Wallet[Wallet Service]",
+          "    Gateway --> Auth[Auth Service]",
+          "    Wallet --> Ledger[Ledger / Transaction Module]",
+          "    Wallet --> Redis[(Redis Cache)]",
+          "    Wallet --> PG[(PostgreSQL)]",
+          "    Wallet --> Events[Event Stream]",
+          "    Events --> Obs[Monitoring & Alerting]",
+          "    Obs --> Prom[Prometheus / Grafana]",
+          "    Obs --> NR[New Relic APM]",
+          "    Wallet --> Dash[Redash Dashboards]"
+        ]
+      },
+      "erdDiagram": {
+        "title": "ERD",
+        "lines": [
+          "erDiagram",
+          "    USERS ||--o{ WALLETS : owns",
+          "    WALLETS ||--o{ TRANSACTIONS : records",
+          "    TRANSACTIONS ||--|| LEDGER_ENTRIES : posts",
+          "    USERS {",
+          "      uuid id PK",
+          "      string full_name",
+          "      string phone",
+          "    }",
+          "    WALLETS {",
+          "      uuid id PK",
+          "      uuid user_id FK",
+          "      decimal balance",
+          "      string status",
+          "    }",
+          "    TRANSACTIONS {",
+          "      uuid id PK",
+          "      uuid wallet_id FK",
+          "      string type",
+          "      decimal amount",
+          "      string status",
+          "    }",
+          "    LEDGER_ENTRIES {",
+          "      uuid id PK",
+          "      uuid transaction_id FK",
+          "      decimal debit",
+          "      decimal credit",
+          "    }"
+        ]
+      },
+      "apiDocumentation": {
+        "basePath": "/api/v1/wallet",
+        "auth": "Bearer token",
+        "rateLimit": "100 req/min",
+        "endpoints": [
+          {
+            "method": "POST",
+            "endpoint": "/transactions",
+            "description": "Create a wallet transaction request.",
+            "auth": "Required",
+            "rateLimit": "50 req/min",
+            "requestBody": [
+              "{",
+              "  \"wallet_id\": \"uuid\",",
+              "  \"type\": \"topup\",",
+              "  \"amount\": 250000",
+              "}"
+            ],
+            "responseBody": [
+              "{",
+              "  \"status\": \"success\",",
+              "  \"transaction_id\": \"trx_123\",",
+              "  \"message\": \"transaction created\"",
+              "}"
+            ]
+          },
+          {
+            "method": "GET",
+            "endpoint": "/transactions/:id",
+            "description": "Fetch transaction detail and processing status.",
+            "auth": "Required",
+            "rateLimit": "100 req/min"
+          }
+        ]
+      },
+      "performanceBenchmarks": {
+        "summary": "The project emphasized operational efficiency and troubleshooting speed more than public benchmark reporting.",
+        "items": [
+          { "label": "Issue tracing", "value": "~75% faster" },
+          { "label": "Operational visibility", "value": "Real-time dashboards + APM" },
+          { "label": "Migration outcome", "value": "Stable transition" }
+        ]
+      },
+      "securityMeasures": [
+        "Role-aware access control for sensitive financial workflows.",
+        "Structured logging for critical transaction paths.",
+        "Operational dashboards to detect failures earlier.",
+        "Backend validation and safe workflow boundaries for transaction processing."
+      ],
+      "testing": {
+        "summary": "The work focused on modular service design, reusable monitoring, and safe migration support.",
+        "coverage": "Portfolio-documented approach",
+        "items": [
+          "Validation and business rule testing for wallet flows.",
+          "Integration-focused verification around transaction migration.",
+          "Monitoring and dashboard checks for production incident visibility."
+        ]
+      },
+      "deployment": {
+        "summary": "The platform work was delivered in an environment that required observability, safe rollout, and support for ongoing migration.",
+        "items": [
+          "Service delivery aligned with distributed backend components.",
+          "Operational dashboards used as part of release confidence.",
+          "Incremental migration strategy to reduce disruption risk."
+        ]
+      },
+      "challenges": [
+        "Balancing new platform development with legacy migration safety.",
+        "Improving observability without slowing delivery.",
+        "Keeping architecture modular while still meeting fintech delivery pressure."
+      ],
+      "lessonsLearned": [
+        "Observability should be designed as a product capability, not as an afterthought.",
+        "Migration strategy deserves architectural attention as early as the first system design discussion.",
+        "Reusable internal modules can create major compounding gains for backend teams."
+      ],
+      "adrRefs": ["adr-clean-architecture-wallet", "adr-observability-first"]
+    },
+    {
+      "slug": "hris-reimbursement-klaim",
+      "name": "Klaim.id Reimbursement SaaS",
+      "tagline": "Claims management platform built from scratch with multi-tenant and infrastructure ownership.",
+      "description": "Architected and developed a reimbursement SaaS product from scratch that aligns with Klaim.id's public positioning as a fast, customizable claims management platform connected with WhatsApp.",
+      "image": "/assets/klaim/hero-manajemen-klaim.png",
+      "gallery": ["/assets/klaim/hero-manajemen-klaim.png"],
+      "stack": ["Golang", "PostgreSQL", "Redis", "MongoDB", "Docker", "Docker Swarm", "GitLab CI", "Jenkins", "Kong", "Traefik", "ELK Stack", "Elasticsearch", "Kibana", "APM"],
+      "links": [
+        { "label": "Live product", "href": "https://klaim.id", "external": true, "variant": "primary" }
+      ],
+      "detailReady": true,
+      "situation": "Klaim.id needed a full reimbursement and claims management platform for HR operations, including claim submission, payment and reimbursement flows, multi-tenant separation, dynamic scheduling, internal operational tooling, and secure infrastructure from day one.",
+      "task": [
+        "Architect and build the reimbursement SaaS platform from scratch.",
+        "Define infrastructure, deployment, and permission strategy.",
+        "Collaborate directly with the CTO and PM to align technical delivery with product goals."
+      ],
+      "actions": [
+        "Applied Clean Architecture and SOLID principles across the backend implementation.",
+        "Designed and implemented infrastructure including CI/CD pipelines, Docker Swarm orchestration, secret management, proxy routing, and permission controls.",
+        "Built APIs for delivery and payment/reimbursement workflows integrated with Midtrans.",
+        "Implemented dynamic scheduling features based on customer requirements.",
+        "Set up APM monitoring using the ELK Stack to track performance and reliability.",
+        "Designed multi-tenant sharding to support scalable customer data separation.",
+        "Developed WhatsApp BOT standby-mode features to improve customer engagement and automation."
+      ],
+      "technicalDecisions": [
+        {
+          "title": "Choose Docker Swarm for orchestration",
+          "rationale": "The environment needed practical orchestration with manageable complexity, allowing the team to move quickly while still supporting multiple services and routing needs."
+        },
+        {
+          "title": "Separate tenant data deliberately",
+          "rationale": "Multi-tenant reimbursement flows create long-term scaling and security concerns, so data separation strategy had to be treated as core architecture."
+        },
+        {
+          "title": "Add APM and ELK early",
+          "rationale": "The platform involved many workflows and integrations, so visibility across logs and traces was necessary for operational reliability."
+        }
+      ],
+      "results": [
+        "Delivered a full reimbursement SaaS platform from scratch.",
+        "Enabled scalable multi-tenant customer separation through sharding design.",
+        "Improved reliability and issue detection using ELK-based APM monitoring.",
+        "Expanded customer-facing automation with WhatsApp BOT capabilities."
+      ],
+      "metrics": [
+        { "label": "Delivery scope", "value": "Full SaaS built from scratch" },
+        { "label": "Tenant model", "value": "Multi-tenant sharding" },
+        { "label": "Monitoring stack", "value": "ELK + APM" }
+      ],
+      "architectureDiagram": {
+        "title": "Architecture Diagram",
+        "lines": [
+          "flowchart TD",
+          "    Users[HR Admin / Employee / Finance] --> Gateway[Kong / Traefik]",
+          "    Gateway --> API[Claim API Service]",
+          "    Gateway --> Auth[Permission & Auth Module]",
+          "    API --> Claim[Reimbursement Core]",
+          "    API --> Schedule[Dynamic Scheduling]",
+          "    API --> WA[WhatsApp BOT Integration]",
+          "    Claim --> PG[(PostgreSQL)]",
+          "    Claim --> Redis[(Redis)]",
+          "    Claim --> Mongo[(MongoDB)]",
+          "    Claim --> Midtrans[Midtrans]",
+          "    API --> Logs[ELK / APM]",
+          "    CICD[GitLab CI / Jenkins] --> Swarm[Docker Swarm]"
+        ]
+      },
+      "erdDiagram": {
+        "title": "ERD",
+        "lines": [
+          "erDiagram",
+          "    TENANTS ||--o{ USERS : contains",
+          "    TENANTS ||--o{ CLAIMS : owns",
+          "    USERS ||--o{ CLAIMS : submits",
+          "    CLAIMS ||--|| REIMBURSEMENTS : settles",
+          "    CLAIMS ||--o{ APPROVALS : tracks",
+          "    TENANTS {",
+          "      uuid id PK",
+          "      string name",
+          "      string shard_key",
+          "    }",
+          "    USERS {",
+          "      uuid id PK",
+          "      uuid tenant_id FK",
+          "      string role",
+          "      string email",
+          "    }",
+          "    CLAIMS {",
+          "      uuid id PK",
+          "      uuid tenant_id FK",
+          "      uuid user_id FK",
+          "      decimal amount",
+          "      string status",
+          "    }",
+          "    APPROVALS {",
+          "      uuid id PK",
+          "      uuid claim_id FK",
+          "      string approver_role",
+          "      string decision",
+          "    }",
+          "    REIMBURSEMENTS {",
+          "      uuid id PK",
+          "      uuid claim_id FK",
+          "      string payment_provider",
+          "      string payment_status",
+          "    }"
+        ]
+      },
+      "apiDocumentation": {
+        "basePath": "/api/v1/claims",
+        "auth": "Bearer token + role-based permission",
+        "rateLimit": "100 req/min",
+        "endpoints": [
+          {
+            "method": "POST",
+            "endpoint": "/",
+            "description": "Create a reimbursement claim.",
+            "auth": "Required",
+            "rateLimit": "50 req/min",
+            "requestBody": [
+              "{",
+              "  \"tenant_id\": \"uuid\",",
+              "  \"amount\": 350000,",
+              "  \"category\": \"transport\",",
+              "  \"attachments\": [\"file-id\"]",
+              "}"
+            ],
+            "responseBody": [
+              "{",
+              "  \"status\": \"success\",",
+              "  \"claim_id\": \"clm_123\",",
+              "  \"approval_status\": \"pending\"",
+              "}"
+            ]
+          },
+          {
+            "method": "POST",
+            "endpoint": "/:id/reimburse",
+            "description": "Trigger reimbursement payment workflow.",
+            "auth": "Finance role required",
+            "rateLimit": "20 req/min"
+          }
+        ]
+      },
+      "performanceBenchmarks": {
+        "summary": "The most important performance work here centered on reliability, visibility, and scale readiness rather than public benchmark numbers.",
+        "items": [
+          { "label": "Tenant scaling approach", "value": "Sharding-ready" },
+          { "label": "Operational monitoring", "value": "ELK + APM" },
+          { "label": "Automation", "value": "WhatsApp BOT support" }
+        ]
+      },
+      "securityMeasures": [
+        "Permission controls designed as part of the platform foundation.",
+        "Secret management included in infrastructure design.",
+        "Tenant-aware separation to reduce data leakage risk.",
+        "Proxy and gateway layer used to centralize traffic control."
+      ],
+      "testing": {
+        "summary": "The platform needed confidence across workflows, tenant separation, and payment/reimbursement actions.",
+        "coverage": "Portfolio-documented approach",
+        "items": [
+          "Validation of claim and reimbursement business rules.",
+          "Role-aware access verification for approval and finance paths.",
+          "Integration validation for Midtrans-backed payment flows."
+        ]
+      },
+      "deployment": {
+        "summary": "I owned a large portion of the operational setup as part of the delivery.",
+        "items": [
+          "CI/CD pipelines with GitLab CI and Jenkins.",
+          "Docker Swarm orchestration for deployment management.",
+          "Proxy routing, secret management, and environment setup as part of the platform foundation."
+        ]
+      },
+      "challenges": [
+        "Balancing platform architecture with direct business delivery needs.",
+        "Designing multi-tenant behavior that would still remain maintainable later.",
+        "Supporting payments, approvals, scheduling, and messaging without bloating the codebase."
+      ],
+      "lessonsLearned": [
+        "A multi-tenant SaaS platform becomes easier to evolve when infrastructure and permission design are treated as product requirements.",
+        "Operational observability is especially important when multiple workflows and integrations meet inside one service boundary.",
+        "Clean architecture is most valuable when the system has to keep adapting under changing customer requirements."
+      ],
+      "adrRefs": ["adr-docker-swarm", "adr-tenant-separation"]
+    },
+    {
+      "slug": "smart-geo-trace",
+      "name": "Smart Geo Trace",
+      "tagline": "Interactive maps, integrated data sources, and operational reporting.",
+      "description": "Drove redevelopment of internal maps data visualization with interactive features, integrated several data sources, and improved the cost and effort of existing implementation flows.",
+      "image": "/assets/confidential/confidential-project-cover.svg",
+      "gallery": ["/assets/confidential/confidential-project-cover.svg"],
+      "stack": ["Golang", "JavaScript", "TypeScript", "Node.js", "Vue.js", "React", "Next.js", "PostgreSQL", "Redis", "MySQL", "MapLibre JS", "Docker", "Docker Swarm", "Traefik", "RabbitMQ"],
+      "links": [],
+      "detailReady": true,
+      "situation": "The organization needed more useful internal map-based visualization with richer interactive behavior and integration with several data sources to support operational use cases.",
+      "task": [
+        "Redevelop the maps visualization experience.",
+        "Integrate multiple backend data sources into a usable internal product.",
+        "Improve implementation cost and preparation effort compared to older flows."
+      ],
+      "actions": [
+        "Reworked internal map visualization with interactive layers and better data integration.",
+        "Connected multiple data sources to enrich map-based operational context.",
+        "Improved the existing implementation flow to reduce preparation and cost burden."
+      ],
+      "technicalDecisions": [
+        {
+          "title": "Use map-focused integration rather than static reporting",
+          "rationale": "The use case benefited from spatial understanding and operational context, which a purely tabular interface would not communicate effectively."
+        },
+        {
+          "title": "Keep the system integration-friendly",
+          "rationale": "The product needed to pull from several data sources, so the backend had to remain flexible and easy to extend."
+        }
+      ],
+      "results": [
+        "Delivered a more useful internal map visualization system.",
+        "Integrated multiple data sources into a more practical internal interface.",
+        "Reduced preparation and cost for existing implementation patterns."
+      ],
+      "metrics": [
+        { "label": "Visualization outcome", "value": "Redeveloped internal map UX" },
+        { "label": "Data integration", "value": "Several data sources" },
+        { "label": "Operational effect", "value": "Reduced preparation cost" }
+      ],
+      "architectureDiagram": {
+        "title": "Architecture Diagram",
+        "lines": [
+          "flowchart TD",
+          "    Ops[Internal Operations Users] --> Web[Geo Dashboard]",
+          "    Web --> API[Geo Aggregation API]",
+          "    API --> Data1[Operational Data Source]",
+          "    API --> Data2[Location Data Source]",
+          "    API --> Cache[(Redis)]",
+          "    API --> PG[(PostgreSQL)]",
+          "    Web --> Map[Interactive Map Layer]",
+          "    Map --> Source[MapLibre Rendering]"
+        ]
+      },
+      "erdDiagram": {
+        "title": "ERD",
+        "lines": [
+          "erDiagram",
+          "    REGIONS ||--o{ TRACKING_POINTS : contains",
+          "    TRACKING_POINTS ||--o{ EVENTS : generates",
+          "    REGIONS {",
+          "      uuid id PK",
+          "      string name",
+          "    }",
+          "    TRACKING_POINTS {",
+          "      uuid id PK",
+          "      uuid region_id FK",
+          "      decimal lat",
+          "      decimal lng",
+          "      string source_ref",
+          "    }",
+          "    EVENTS {",
+          "      uuid id PK",
+          "      uuid tracking_point_id FK",
+          "      string event_type",
+          "      timestamp event_time",
+          "    }"
+        ]
+      },
+      "apiDocumentation": {
+        "basePath": "/api/v1/geo",
+        "auth": "Internal authenticated access",
+        "rateLimit": "Internal network policy",
+        "endpoints": [
+          {
+            "method": "GET",
+            "endpoint": "/layers",
+            "description": "Fetch map layers and visualization-ready geo data.",
+            "auth": "Required",
+            "rateLimit": "Controlled internally"
+          },
+          {
+            "method": "GET",
+            "endpoint": "/tracking/:id/history",
+            "description": "Return historical event and point data for interactive tracing.",
+            "auth": "Required",
+            "rateLimit": "Controlled internally"
+          }
+        ]
+      },
+      "performanceBenchmarks": {
+        "summary": "The project improved practicality and implementation overhead rather than publishing benchmark targets.",
+        "items": [
+          { "label": "Focus", "value": "Interactive internal operations" },
+          { "label": "Data model", "value": "Multi-source integration" },
+          { "label": "Implementation outcome", "value": "Reduced preparation cost" }
+        ]
+      },
+      "securityMeasures": [
+        "Internal-access-only API usage for sensitive operational data.",
+        "Controlled integration boundaries between source systems and visualization output.",
+        "Data aggregation approach to reduce direct exposure of raw source complexity."
+      ],
+      "testing": {
+        "summary": "Confidence came from validating aggregation correctness and interactive operational behavior.",
+        "coverage": "Portfolio-documented approach",
+        "items": [
+          "Data mapping verification across integrated sources.",
+          "Visualization payload validation for internal consumers.",
+          "Operational checks around interaction-heavy map features."
+        ]
+      },
+      "deployment": {
+        "summary": "The platform aligned with an internal environment built around service integration and map-facing delivery.",
+        "items": [
+          "Backend integration service for geo aggregation.",
+          "Map-focused client delivery connected to internal authenticated APIs."
+        ]
+      },
+      "challenges": [
+        "Making internal visualization genuinely useful rather than decorative.",
+        "Combining multiple data sources without creating a fragile integration layer.",
+        "Reducing implementation effort while still improving functionality."
+      ],
+      "lessonsLearned": [
+        "Geo and map products depend heavily on backend integration quality.",
+        "Interactive visualizations become much more useful when the data model is designed for operational questions.",
+        "Internal products benefit from the same rigor as external-facing systems."
+      ],
+      "adrRefs": ["adr-geo-aggregation"]
+    },
+    {
+      "slug": "stealth-startup-digital-finance",
+      "name": "Sahabat Warga by Saga",
+      "tagline": "Digital finance and resident operations platform for transparent community management.",
+      "description": "Built the product foundation for a digital finance and services ecosystem that helps housing clusters and neighborhood operators manage dues, resident data, introduction letters, reporting, and communication in one platform.",
+      "image": "/assets/saga/web-preview.jpg",
+      "gallery": ["/assets/saga/web-preview.jpg"],
+      "stack": ["Golang", "JavaScript", "TypeScript", "Node.js", "Vue.js", "React", "Next.js", "PostgreSQL", "Redis", "MySQL", "RabbitMQ", "Jenkins", "Docker", "Docker Swarm", "Traefik", "Keycloak", "QRIS", "Virtual Account", "WhatsApp"],
+      "links": [
+        { "label": "Live product", "href": "https://saga.co.id", "external": true, "variant": "primary" }
+      ],
+      "detailReady": true,
+      "situation": "The stealth startup was building a digital finance ecosystem for communities and residential operators that still relied on manual dues tracking, fragmented resident data, paper-based letters, and ad-hoc communication. The public product now appears as Sahabat Warga by Saga, positioned as an all-in-one app for iuran, surat pengantar, data warga, reporting, and resident communication.",
+      "task": [
+        "Analyze the business problem and translate it into a practical product and system plan.",
+        "Build the platform foundation from scratch so finance, resident operations, and communication could live in one product.",
+        "Prepare the architecture and integrations needed for digital dues, reporting transparency, resident data management, and broadcast workflows."
+      ],
+      "actions": [
+        "Designed the overall backend and product flow for a community finance and services ecosystem rather than shipping isolated features.",
+        "Built core modules around iuran digital, resident data management, surat pengantar workflows, and communication features.",
+        "Prepared payment-oriented integrations so the product could support flexible collection flows such as QRIS, virtual account, and e-wallet style payment options highlighted on the public site.",
+        "Structured the platform with containerized services, identity management, reverse proxy routing, and async messaging to keep the system adaptable as the product expanded.",
+        "Aligned technical delivery with business needs by turning manual neighborhood administration processes into a more transparent digital workflow."
+      ],
+      "technicalDecisions": [
+        {
+          "title": "Treat finance and resident operations as a single platform",
+          "rationale": "Dues, resident records, letters, and communication are operationally connected, so keeping them in one product reduced context switching and improved traceability for administrators and residents."
+        },
+        {
+          "title": "Separate payment and notification workflows from the core resident domain",
+          "rationale": "Billing, reminders, and payment updates evolve faster than resident master data, so a modular boundary made integrations easier to extend without destabilizing core workflows."
+        },
+        {
+          "title": "Use container orchestration and centralized identity early",
+          "rationale": "The product needed a reliable deployment path and manageable access control while the business was still iterating, making Docker Swarm, Traefik, and Keycloak pragmatic choices."
+        }
+      ],
+      "results": [
+        "Delivered a product foundation that combines digital dues, resident administration, reporting, and communication in a single ecosystem.",
+        "Supported a transparency-first product positioning with real-time financial reporting and audit-oriented workflows.",
+        "Helped shape a live public product whose website highlights usage across 100+ communities, 24+ clusters, 1242+ residents, 3 cities or regencies, and 8 managed areas."
+      ],
+      "metrics": [
+        { "label": "Public site signal", "value": "100+ communities" },
+        { "label": "Cluster coverage", "value": "24+ clusters" },
+        { "label": "Resident footprint", "value": "1242+ residents" },
+        { "label": "Regional reach", "value": "3 cities/regencies" },
+        { "label": "Managed areas", "value": "8 areas" }
+      ],
+      "architectureDiagram": {
+        "title": "Architecture Diagram",
+        "lines": [
+          "flowchart TD",
+          "    User[Resident / Admin / Community Operator] --> Web[Web App]",
+          "    User --> Mobile[Mobile Client]",
+          "    Web --> Gateway[API Gateway / Traefik]",
+          "    Mobile --> Gateway",
+          "    Gateway --> Auth[Identity Service (Keycloak)]",
+          "    Gateway --> Resident[Resident & Community Service]",
+          "    Gateway --> Billing[Billing & Dues Service]",
+          "    Gateway --> Letter[Letter & Request Service]",
+          "    Gateway --> Comm[Notification & Broadcast Service]",
+          "    Billing --> Payments[Payment Integrations]",
+          "    Billing --> Queue[Message Queue]",
+          "    Comm --> Queue",
+          "    Resident --> PG[(PostgreSQL / MySQL)]",
+          "    Billing --> PG",
+          "    Letter --> PG",
+          "    Resident --> Redis[(Redis Cache)]",
+          "    Billing --> Redis",
+          "    Queue --> Worker[Async Workers]",
+          "    Worker --> WA[WhatsApp / Messaging Channels]"
+        ]
+      },
+      "erdDiagram": {
+        "title": "ERD",
+        "lines": [
+          "erDiagram",
+          "    COMMUNITIES ||--o{ RESIDENTS : contains",
+          "    COMMUNITIES ||--o{ BILLING_CYCLES : issues",
+          "    RESIDENTS ||--o{ PAYMENTS : makes",
+          "    RESIDENTS ||--o{ LETTER_REQUESTS : submits",
+          "    COMMUNITIES ||--o{ ANNOUNCEMENTS : publishes",
+          "    BILLING_CYCLES ||--o{ PAYMENTS : settles",
+          "    COMMUNITIES {",
+          "      uuid id PK",
+          "      string name",
+          "      string area_type",
+          "    }",
+          "    RESIDENTS {",
+          "      uuid id PK",
+          "      uuid community_id FK",
+          "      string full_name",
+          "      string house_number",
+          "      string status",
+          "    }",
+          "    BILLING_CYCLES {",
+          "      uuid id PK",
+          "      uuid community_id FK",
+          "      string period",
+          "      decimal amount",
+          "      string status",
+          "    }",
+          "    PAYMENTS {",
+          "      uuid id PK",
+          "      uuid resident_id FK",
+          "      uuid billing_cycle_id FK",
+          "      string channel",
+          "      string payment_status",
+          "    }",
+          "    LETTER_REQUESTS {",
+          "      uuid id PK",
+          "      uuid resident_id FK",
+          "      string letter_type",
+          "      string approval_status",
+          "    }",
+          "    ANNOUNCEMENTS {",
+          "      uuid id PK",
+          "      uuid community_id FK",
+          "      string title",
+          "      string target_scope",
+          "    }"
+        ]
+      },
+      "apiDocumentation": {
+        "basePath": "/api/v1",
+        "auth": "Bearer token with role-based access for resident and admin flows.",
+        "rateLimit": "Applied per client and integration channel for operational safety.",
+        "endpoints": [
+          {
+            "method": "GET",
+            "endpoint": "/communities/{communityId}/dashboard",
+            "description": "Return a consolidated dashboard for resident count, billing status, and communication activity.",
+            "auth": "Admin",
+            "rateLimit": "60 req/min"
+          },
+          {
+            "method": "POST",
+            "endpoint": "/billings",
+            "description": "Create a billing cycle for digital dues and assign it to target residents.",
+            "auth": "Admin",
+            "rateLimit": "30 req/min",
+            "requestBody": ["communityId", "period", "amount", "dueDate"],
+            "responseBody": ["billingId", "status", "residentCount"]
+          },
+          {
+            "method": "POST",
+            "endpoint": "/payments/callback",
+            "description": "Receive payment confirmation updates from external payment channels.",
+            "auth": "Integration signature",
+            "rateLimit": "120 req/min",
+            "requestBody": ["transactionId", "channel", "status", "paidAt"],
+            "responseBody": ["accepted", "billingStatus"]
+          },
+          {
+            "method": "POST",
+            "endpoint": "/letter-requests",
+            "description": "Submit a resident letter request for neighborhood administration workflows.",
+            "auth": "Resident",
+            "rateLimit": "20 req/min",
+            "requestBody": ["residentId", "letterType", "purpose"],
+            "responseBody": ["requestId", "approvalStatus"]
+          },
+          {
+            "method": "POST",
+            "endpoint": "/announcements/broadcast",
+            "description": "Broadcast an announcement or payment reminder to targeted residents.",
+            "auth": "Admin",
+            "rateLimit": "10 req/min",
+            "requestBody": ["communityId", "message", "targetScope", "channel"],
+            "responseBody": ["broadcastId", "queuedRecipients"]
+          }
+        ]
+      },
+      "securityMeasures": [
+        "Aligned the product narrative with public security commitments shown on saga.co.id, including AES-256 data encryption and SSL/TLS protected connections.",
+        "Used centralized identity and access management with Keycloak to control administrative and resident-facing roles.",
+        "Kept payment-facing flows behind controlled integration boundaries so billing confirmation and resident-facing operations could be audited separately."
+      ],
+      "testing": {
+        "summary": "Focused on validating billing, resident administration, and integration-sensitive workflows before release.",
+        "coverage": "Backend domain, payment callback flows, and operational scenarios.",
+        "items": [
+          "Validated billing state transitions and payment callback handling.",
+          "Tested resident data and letter-request workflows against role-based access expectations.",
+          "Checked communication flows for queued broadcast and reminder scenarios."
+        ]
+      },
+      "deployment": {
+        "summary": "Prepared the system for repeatable delivery using the infrastructure stack referenced in the CV.",
+        "items": [
+          "Containerized services with Docker for consistency across environments.",
+          "Used Docker Swarm and Traefik as a practical orchestration and routing setup.",
+          "Supported CI/CD-oriented delivery with Jenkins and modular service boundaries."
+        ]
+      },
+      "challenges": [
+        "Translating offline neighborhood administration habits into product flows that still felt practical to operators.",
+        "Balancing financial transparency requirements with simple resident-facing experiences.",
+        "Designing for payments, communication, and resident data in one ecosystem without creating a tightly coupled monolith."
+      ],
+      "lessonsLearned": [
+        "Community finance products become much more valuable when payment, records, and communication are designed as one workflow.",
+        "Early architecture choices matter even more when the business is still discovering product-market fit.",
+        "Public trust features like clear reporting and secure payment handling are product features, not just backend implementation details."
+      ],
+      "adrRefs": ["adr-docker-swarm"]
+    },
+    {
+      "slug": "road-management-system",
+      "name": "Road Management System",
+      "tagline": "IoT-backed road operations platform with reporting and map interaction.",
+      "description": "Developed new features for a road management platform, integrated GPS and IoT hardware data, migrated map rendering from Mapbox to LeafletJS, and improved database maintainability by moving from MySQL to MariaDB.",
+      "image": "/assets/confidential/confidential-project-cover.svg",
+      "gallery": ["/assets/confidential/confidential-project-cover.svg"],
+      "stack": ["Node.js", "Express.js", "JavaScript", "Vue.js", "MariaDB", "MySQL", "LeafletJS", "Mapbox"],
+      "links": []
+    },
+    {
+      "slug": "fadst-upstream-platform",
+      "name": "FADST Upstream Platform",
+      "tagline": "Modular upstream system integrating rainfall and IoT insights.",
+      "description": "Built a modular system from scratch, integrated IoT and rainfall data streams, and developed recommendation algorithms for fertilizer usage based on dynamic environmental conditions.",
+      "image": "/assets/confidential/confidential-project-cover.svg",
+      "gallery": ["/assets/confidential/confidential-project-cover.svg"],
+      "stack": ["Node.js", "AdonisJS", "JavaScript", "Vue.js", "MySQL", "IoT"],
+      "links": []
+    },
+    {
+      "slug": "arjuna-ticketing",
+      "name": "Arjuna Ticketing",
+      "tagline": "Full ticketing system with infrastructure and observability improvements.",
+      "description": "Designed and developed a ticketing system from scratch, researched Docker-based infrastructure, implemented monitoring for logs and metrics, and integrated with external suppliers and financial systems.",
+      "image": "/assets/confidential/confidential-project-cover.svg",
+      "gallery": ["/assets/confidential/confidential-project-cover.svg"],
+      "stack": ["Laravel", "PHP", "MySQL", "Docker"],
+      "links": []
+    },
+    {
+      "slug": "kenji-backoffice",
+      "name": "Kenji Backoffice",
+      "tagline": "Business operations system with financial reporting and bank integrations.",
+      "description": "Developed a back office system from partial completion to full deployment, adding financial reporting, banking API integrations, ticket support, CSR management, and product knowledge workflows.",
+      "image": "/assets/confidential/confidential-project-cover.svg",
+      "gallery": ["/assets/confidential/confidential-project-cover.svg"],
+      "stack": ["Laravel", "PHP", "MySQL", "Docker"],
+      "links": []
+    }
+  ],
+  "blog": {
+    "title": "Blog / Writing",
+    "intro": "Technical writing that supports the portfolio with backend-focused lessons, architecture thinking, and practical delivery patterns.",
+    "posts": [
+      {
+        "slug": "architecting-multi-tenant-hris-platforms",
+        "title": "Architecting Multi-Tenant HRIS Platforms with Clean Architecture",
+        "date": "March 20, 2026",
+        "dateTime": "2026-03-20",
+        "excerpt": "Lessons from designing a reimbursement SaaS platform from scratch, including tenant separation, infrastructure setup, and operational visibility.",
+        "latest": true,
+        "tags": ["SaaS", "Clean Architecture", "Multi-tenant"],
+        "sections": [
+          {
+            "heading": "Why multi-tenant systems need clearer boundaries",
+            "paragraphs": [
+              "In a reimbursement SaaS platform, business rules, approval flows, payment integration, and tenant separation all intersect. That makes architecture boundaries a delivery multiplier rather than just a code preference.",
+              "I have found that clean architecture becomes especially useful when the product keeps evolving because it protects business logic from direct coupling to infrastructure concerns."
+            ]
+          },
+          {
+            "heading": "Patterns that helped",
+            "bullets": [
+              "Treat tenant separation as a core design concern early.",
+              "Build infrastructure and permissions as part of product design.",
+              "Use observability to support release confidence and operations.",
+              "Keep the domain model adaptable to changing customer requests."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "leading-ewallet-builds-in-fintech",
+        "title": "Leading E-Wallet Builds in Fintech Without Slowing the Team Down",
+        "date": "February 18, 2026",
+        "dateTime": "2026-02-18",
+        "excerpt": "A backend perspective on clean architecture, migration safety, observability, and modular delivery inside a fintech wallet platform.",
+        "tags": ["Fintech", "Golang", "Observability"],
+        "sections": [
+          {
+            "heading": "Fintech delivery needs operational clarity",
+            "paragraphs": [
+              "Wallet systems are not only about API correctness. They also need migration safety, operational visibility, and maintainable service boundaries so teams can change the system without losing confidence.",
+              "I care a lot about reusable logging and monitoring because strong observability shortens incident response and creates better development leverage over time."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "migrating-gitlab-and-jenkins-to-github-actions",
+        "title": "Migrating GitLab and Jenkins to GitHub Actions in a Hybrid Architecture",
+        "date": "January 28, 2026",
+        "dateTime": "2026-01-28",
+        "excerpt": "How CI/CD migration becomes an architecture and organizational alignment problem, not just a tooling change.",
+        "tags": ["CI/CD", "GitHub Actions", "Platform Engineering"],
+        "sections": [
+          {
+            "heading": "Migration is more than moving YAML",
+            "paragraphs": [
+              "When a team already has hybrid architecture and running delivery pressure, pipeline migration needs to protect release confidence and working habits while still raising consistency.",
+              "I like treating migration as productized platform work, with clear stages, clear ownership, and standards that remain useful after the migration ends."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Technologies I use",
+    "intro": "A practical snapshot of the tools and technologies I have used most often in real backend delivery.",
+    "items": [
+      { "name": "Node.js", "href": "https://nodejs.org/", "logo": "/assets/tech/nodejs.svg" },
+      { "name": "JavaScript", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript", "logo": "/assets/tech/javascript.svg" },
+      { "name": "TypeScript", "href": "https://www.typescriptlang.org/", "logo": "/assets/tech/typescript.svg" },
+      { "name": "PostgreSQL", "href": "https://www.postgresql.org/", "logo": "/assets/tech/postgresql.svg" },
+      { "name": "MySQL", "href": "https://www.mysql.com/", "logo": "/assets/tech/mysql.svg" },
+      { "name": "MongoDB", "href": "https://www.mongodb.com/", "logo": "/assets/tech/mongodb.svg" },
+      { "name": "Redis", "href": "https://redis.io/" },
+      { "name": "Docker", "href": "https://www.docker.com/", "logo": "/assets/tech/docker.svg" },
+      { "name": "GitHub", "href": "https://github.com", "logo": "/assets/tech/github.svg" },
+      { "name": "Next.js", "href": "https://nextjs.org/", "logo": "/assets/tech/next.svg" },
+      { "name": "React", "href": "https://react.dev/", "logo": "/assets/tech/react.svg" },
+      { "name": "Traefik", "href": "https://traefik.io/" },
+      { "name": "MapLibre", "href": "https://maplibre.org/" },
+      { "name": "Jenkins", "href": "https://www.jenkins.io/" }
+    ]
+  },
+  "securityAssessment": {
+    "intro": "I treat security as part of delivery quality. Even when a project is not explicitly a security product, backend systems should document how access control, safe integration, observability, and operational safeguards are handled.",
+    "checklist": [
+      {
+        "vulnerability": "Broken Access Control",
+        "status": "Mitigated",
+        "implementation": "Role-aware permissions and approval boundaries on sensitive workflows."
+      },
+      {
+        "vulnerability": "Cryptographic Failures",
+        "status": "Addressed operationally",
+        "implementation": "Sensitive flows designed around provider-backed integrations and secure environment handling."
+      },
+      {
+        "vulnerability": "Injection",
+        "status": "Mitigated",
+        "implementation": "Backend validation and structured query handling in service layers."
+      },
+      {
+        "vulnerability": "Insecure Design",
+        "status": "Mitigated",
+        "implementation": "Clean architecture, tenant separation, and explicit workflow modeling."
+      },
+      {
+        "vulnerability": "Security Misconfiguration",
+        "status": "Mitigated",
+        "implementation": "Secret management, proxy routing, and infrastructure setup treated as first-class concerns."
+      },
+      {
+        "vulnerability": "Logging and Monitoring Failures",
+        "status": "Mitigated",
+        "implementation": "ELK, APM, Prometheus, Grafana, New Relic, and operational dashboards."
+      }
+    ]
+  },
+  "adrRecords": [
+    {
+      "id": "adr-clean-architecture-wallet",
+      "title": "ADR-001: Use Clean Architecture for Wallet Core Services",
+      "status": "Accepted",
+      "context": [
+        "The wallet platform needed to evolve safely while supporting migrations, financial workflows, and observability.",
+        "The backend would likely change over time, so business logic needed protection from framework and infrastructure churn."
+      ],
+      "decision": "Use clean architecture boundaries so wallet business rules remain isolated from delivery and infrastructure layers.",
+      "positive": [
+        "Reduced long-term coupling inside the service.",
+        "Made core use cases easier to reason about and evolve.",
+        "Supported reusable modules for logging and monitoring."
+      ],
+      "negative": [
+        "Added design effort up front.",
+        "Required stronger discipline across the team."
+      ],
+      "alternatives": [
+        {
+          "option": "Direct framework-centric service design",
+          "pros": "Faster at the beginning",
+          "cons": "Harder to change safely later",
+          "verdict": "Rejected"
+        }
+      ]
+    },
+    {
+      "id": "adr-observability-first",
+      "title": "ADR-002: Build Reusable Observability Into Financial Backend Work",
+      "status": "Accepted",
+      "context": [
+        "Distributed financial systems become expensive to troubleshoot when visibility is inconsistent.",
+        "Operations teams needed better support for tracing and production decisions."
+      ],
+      "decision": "Standardize reusable logging and monitoring modules and connect them to dashboards and APM.",
+      "positive": [
+        "Improved troubleshooting speed.",
+        "Raised team confidence in production changes.",
+        "Created reusable operational leverage."
+      ],
+      "negative": [
+        "Required additional implementation effort outside core feature work."
+      ],
+      "alternatives": [
+        {
+          "option": "Minimal service-specific logging only",
+          "pros": "Lower initial effort",
+          "cons": "Poor cross-service observability",
+          "verdict": "Rejected"
+        }
+      ]
+    },
+    {
+      "id": "adr-docker-swarm",
+      "title": "ADR-003: Use Docker Swarm for Reimbursement SaaS Orchestration",
+      "status": "Accepted",
+      "context": [
+        "The platform needed practical service orchestration, routing, and deployment support without unnecessary operational overhead.",
+        "The team needed to move quickly while keeping operational control."
+      ],
+      "decision": "Use Docker Swarm as the orchestration layer together with CI/CD, proxies, and secret management.",
+      "positive": [
+        "Balanced operational simplicity with multi-service deployment needs.",
+        "Worked well with the delivery setup the team could support."
+      ],
+      "negative": [
+        "Less feature-rich than heavier orchestration platforms."
+      ],
+      "alternatives": [
+        {
+          "option": "More complex orchestration platform",
+          "pros": "Broader orchestration feature set",
+          "cons": "Higher complexity for the team at the time",
+          "verdict": "Rejected"
+        }
+      ]
+    },
+    {
+      "id": "adr-tenant-separation",
+      "title": "ADR-004: Design Tenant Separation Early for HRIS Reimbursement",
+      "status": "Accepted",
+      "context": [
+        "The product would serve multiple customers with data isolation requirements.",
+        "Retrofitting tenant separation later would significantly increase risk."
+      ],
+      "decision": "Design multi-tenant sharding and permission strategy as core architecture, not as an afterthought.",
+      "positive": [
+        "Created a cleaner scaling path for customer growth.",
+        "Reduced risk around customer data separation."
+      ],
+      "negative": [
+        "Added design and implementation complexity early."
+      ],
+      "alternatives": [
+        {
+          "option": "Single-tenant assumptions with later migration",
+          "pros": "Lower early complexity",
+          "cons": "Higher long-term migration risk",
+          "verdict": "Rejected"
+        }
+      ]
+    },
+    {
+      "id": "adr-geo-aggregation",
+      "title": "ADR-005: Aggregate Multi-Source Data Before Visualization",
+      "status": "Accepted",
+      "context": [
+        "The geo platform needed several data sources to support internal operational questions.",
+        "Direct frontend dependence on multiple sources would increase fragility."
+      ],
+      "decision": "Introduce an aggregation API layer so map-facing clients receive visualization-ready data.",
+      "positive": [
+        "Simplified client integration.",
+        "Made future source changes easier to manage.",
+        "Improved operational clarity."
+      ],
+      "negative": [
+        "Added an additional backend layer to maintain."
+      ],
+      "alternatives": [
+        {
+          "option": "Connect each source directly to the frontend",
+          "pros": "Lower initial backend work",
+          "cons": "Fragile client complexity and harder scaling",
+          "verdict": "Rejected"
+        }
+      ]
+    }
+  ],
+  "portfolioReport": {
+    "title": "Back End Portfolio Report",
+    "executiveSummary": [
+      "I am a senior software engineer with more than seven years of experience building backend systems and scalable business platforms. My strongest specialization is backend development with Golang, supported by working knowledge of JavaScript, TypeScript, PHP, C#, and Dart when product context requires flexibility.",
+      "Across fintech, HR SaaS, transportation, and internal operational products, I have worked on architecture design, API development, multi-tenant systems, observability, CI/CD, infrastructure setup, and large-scale backend improvements. I care about clean architecture, operational clarity, and building systems that stay maintainable as they grow.",
+      "This portfolio is structured to show not only what I built, but how I think: problem framing, technical decisions, architecture, security awareness, and measurable delivery impact."
+    ],
+    "lessonsLearned": [
+      "Architecture should protect delivery speed, not slow it down.",
+      "Observability is one of the highest-leverage investments for backend teams.",
+      "Migration and platform work deserve as much planning as feature work.",
+      "The best internal systems are built with the same rigor as customer-facing products.",
+      "Strong backend engineering combines technical clarity with business understanding."
+    ],
+    "linksAndResources": [
+      { "label": "GitHub", "href": "https://github.com/dedekrnwan", "external": true },
+      { "label": "Email", "href": "mailto:dedekrnwan.official@gmail.com" },
+      { "label": "Work archive", "href": "/work" },
+      { "label": "Blog / Writing", "href": "/blog" }
+    ]
+  },
+  "contact": {
+    "title": "Contact me",
+    "intro": "I am eager to discuss my experience in detail and demonstrate how I can deliver impactful backend results for your team.",
+    "links": [
+      { "label": "Email", "href": "mailto:dedekrnwan.official@gmail.com" },
+      { "label": "Phone", "href": "tel:+62818210242" },
+      { "label": "GitHub", "href": "https://github.com/dedekrnwan", "external": true }
+    ]
+  },
+  "uses": {
+    "title": "What I use",
+    "intro": "A practical overview of the tools and workflows I rely on most often when building backend systems.",
+    "categories": [
+      {
+        "title": "Languages & frameworks",
+        "items": [
+          "Golang as my main backend language",
+          "Node.js, JavaScript, and TypeScript for broader product and platform work",
+          "PHP and ASP.NET MVC when legacy or business constraints require it"
+        ]
+      },
+      {
+        "title": "Infrastructure & delivery",
+        "items": [
+          "Docker and Docker Swarm for deployment and environment consistency",
+          "Jenkins, GitLab CI, and GitHub Actions for build and release automation",
+          "Traefik, Kong, and secret-aware environment setup for backend operations"
+        ]
+      },
+      {
+        "title": "Observability & analysis",
+        "items": [
+          "ELK Stack, Elasticsearch, Kibana, and APM for tracing and monitoring",
+          "Prometheus, Grafana, and New Relic for system visibility",
+          "Redash dashboards for operational and product insight"
+        ]
+      }
+    ]
+  },
+  "photography": {
+    "title": "My photography",
+    "intro": "This portfolio is currently optimized for backend engineering and technical documentation. A personal gallery can be added here later if needed.",
+    "photos": []
+  },
+  "resume": {
+    "title": "Resume",
+    "pdf": "/assets/cv.pdf",
+    "actions": [
+      { "label": "View portfolio report", "href": "/report", "variant": "primary" },
+      { "label": "View my work", "href": "/work", "variant": "secondary" },
+      { "label": "Email me", "href": "mailto:dedekrnwan.official@gmail.com", "variant": "outline" }
+    ]
+  },
+  "footer": {
+    "copyrightLabel": "Copyright",
+    "yearStart": 2017,
+    "yearEnd": 2026,
+    "columns": [
+      {
+        "title": "Important Links",
+        "links": [
+          { "label": "Home", "href": "/" },
+          { "label": "My work", "href": "/work" },
+          { "label": "Portfolio report", "href": "/report" },
+          { "label": "Resume", "href": "/resume" }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          { "label": "Email", "href": "mailto:dedekrnwan.official@gmail.com" },
+          { "label": "Phone", "href": "tel:+62818210242" },
+          { "label": "GitHub", "href": "https://github.com/dedekrnwan", "external": true }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Blog", "href": "/blog" },
+          { "label": "What I use", "href": "/uses" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      }
+    ]
+  }
+}
